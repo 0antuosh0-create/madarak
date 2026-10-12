@@ -42,6 +42,14 @@ export const LessonView: React.FC<LessonViewProps> = ({
 }) => {
   const comprehensiveSummary = lesson.comprehensiveSummary || lessonComprehensiveSummaries[lesson.id];
   const descriptiveQuestions = lesson.descriptiveQuestions || lessonDescriptiveQuestions[lesson.id] || [];
+  const isJabehdarLesson = [
+    'lesson-1-1', 'lesson-1-2', 'lesson-1-3', 'lesson-1-4', 'lesson-1-5', 'lesson-1-6',
+    'lesson-3-1', 'lesson-3-2', 'lesson-3-3', 'lesson-3-4', 'lesson-3-5',
+    'lesson-6-1', 'lesson-6-2',
+    'lesson-7-1', 'lesson-7-2', 'lesson-7-3', 'lesson-7-4', 'lesson-7-5',
+    'lesson-8-5',
+  ].includes(lesson.id);
+
 
   return (
     <div className="max-w-4xl mx-auto py-6 px-4 sm:px-6">
@@ -102,7 +110,11 @@ export const LessonView: React.FC<LessonViewProps> = ({
         <div className="p-5 sm:p-6 rounded-2xl bg-white dark:bg-[#0f172a] border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
           <div className="flex items-center gap-2 pb-3 border-b border-slate-200 dark:border-slate-800 text-slate-500 dark:text-slate-400 text-xs font-bold">
             <BookOpen size={16} className="text-amber-500" />
-            <span>متن آموزشی مرجع دکتر جبه‌دار مارالانی</span>
+            <span>
+              {isJabehdarLesson
+                ? 'متن آموزشی مرجع نظریه مدار (دکتر جبه‌دار مارالانی)'
+                : 'متن آموزشی تخصصی مهندسی سیستم‌های انرژی و قدرت'}
+            </span>
           </div>
 
           <div
@@ -119,7 +131,11 @@ export const LessonView: React.FC<LessonViewProps> = ({
         <div className="p-5 rounded-2xl bg-slate-50 dark:bg-[#131d31] border border-slate-200 dark:border-slate-800 mb-6">
           <h4 className="text-xs sm:text-sm font-bold text-slate-900 dark:text-white mb-3 flex items-center gap-2">
             <CheckCircle2 size={16} className="text-amber-500" />
-            <span>نکات طلایی و آموزه‌های کلیدی دکتر جبه‌دار:</span>
+            <span>
+              {isJabehdarLesson
+                ? 'نکات طلایی و آموزه‌های کلیدی درس (دکتر جبه‌دار):'
+                : 'نکات طلایی و آموزه‌های کلیدی سرفصل:'}
+            </span>
           </h4>
           <ul className="space-y-2">
             {lesson.keyPointsFa.map((point, idx) => (

@@ -410,7 +410,7 @@ export const NodeMatrixSolver: React.FC = () => {
             <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800 text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
               <div className="flex items-center gap-1.5 font-bold text-slate-900 dark:text-white">
                 <CheckCircle2 size={15} className="text-emerald-500" />
-                <span>مراحل حل طبق فصل سوم کتاب دکتر جبه‌دار:</span>
+                <span>مراحل حل سیستماتیک با روش ماتریس هدایت گره‌ها:</span>
               </div>
               <p>
                 ۱. <strong>تشکیل درایه‌های ماتریس رسانایی:</strong> درایه‌های قطر اصلی برابر مجموع رسانایی‌های متصل به هر گره هستند ({nodeCount === 2 ? `G11 = 1/${r1} + 1/${r12} = ${G11.toFixed(3)} S` : `M11 = ${M11.toFixed(2)} S`}).

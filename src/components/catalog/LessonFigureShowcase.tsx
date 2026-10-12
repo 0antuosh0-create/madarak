@@ -68,12 +68,17 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
             <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
               <span className="text-xs font-bold text-slate-900 dark:text-white">
                 {activeTab === 'textbook'
-                  ? 'شکل و دیاگرام کتاب مرجع دکتر جبه‌دار'
+                  ? (figureMeta.sourceKind === 'jabehdar'
+                      ? 'شکل و دیاگرام کتاب مرجع دکتر جبه‌دار'
+                      : 'دیاگرام و مرجع علمی سرفصل')
                   : 'تطبیق با سخت‌افزار و آزمایشگاه واقعی در صنعت'}
               </span>
               {activeTab === 'textbook' ? (
                 <span className="text-[11px] px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 font-semibold border border-amber-300/40 dark:border-amber-700/40">
-                  {figureMeta.figureNumberFa} • صفحه {toPersianDigits(figureMeta.bookPage)} کتاب جبه‌دار
+                  {figureMeta.figureNumberFa}
+                  {figureMeta.sourceKind === 'jabehdar' && figureMeta.bookPage !== undefined
+                    ? ` • صفحه ${toPersianDigits(figureMeta.bookPage)} کتاب جبه‌دار`
+                    : ''}
                 </span>
               ) : hardwareMeta ? (
                 <span className="text-[11px] px-2 py-0.5 rounded-full bg-sky-100 dark:bg-sky-950/60 text-sky-800 dark:text-sky-300 font-semibold border border-sky-300/40 dark:border-sky-700/40">
@@ -83,7 +88,9 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
             </div>
             <p className="text-[11px] text-slate-500 mt-0.5">
               {activeTab === 'textbook'
-                ? 'مرجع نظریه اساسی مدارها و شبکه‌ها (تألیف چارلز دسور و ارنست کوه / ترجمه دکتر جبه‌دار)'
+                ? (figureMeta.sourceKind === 'jabehdar'
+                    ? 'مرجع نظریه اساسی مدارها و شبکه‌ها (تألیف چارلز دسور و ارنست کوه / ترجمه دکتر جبه‌دار)'
+                    : figureMeta.sourceCitationFa)
                 : 'بررسی قطعات فیزیکی، نحوه بستن مدار در آزمایشگاه و استانداردهای صنعتی'}
             </p>
           </div>
@@ -102,7 +109,7 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
               }`}
             >
               <BookOpen size={13} />
-              <span>شکل کتاب جبه‌دار</span>
+              <span>{figureMeta.sourceKind === 'jabehdar' ? 'شکل کتاب جبه‌دار' : 'دیاگرام و مرجع علمی'}</span>
             </button>
             <button
               onClick={() => setActiveTab('hardware')}
@@ -224,7 +231,9 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
                 {figureMeta.captionFa}
               </h4>
               <p className="text-[11px] text-slate-500 mt-0.5">
-                برگرفته از صفحه {toPersianDigits(figureMeta.bookPage)} کتاب نظریه اساسی مدارها و شبکه‌ها (دکتر جبه‌دار مارالانی)
+                {figureMeta.sourceKind === 'jabehdar' && figureMeta.bookPage !== undefined
+                  ? `برگرفته از صفحه ${toPersianDigits(figureMeta.bookPage)} کتاب نظریه اساسی مدارها و شبکه‌ها (دکتر جبه‌دار مارالانی)`
+                  : `منبع: ${figureMeta.sourceCitationFa}`}
               </p>
             </div>
           </div>
@@ -265,7 +274,9 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
                   {figureMeta.figureNumberFa}: {figureMeta.captionFa}
                 </h3>
                 <span className="text-xs text-slate-500">
-                  صفحه {toPersianDigits(figureMeta.bookPage)} کتاب دکتر جبه‌دار مارالانی
+                  {figureMeta.sourceKind === 'jabehdar' && figureMeta.bookPage !== undefined
+                    ? `صفحه ${toPersianDigits(figureMeta.bookPage)} کتاب دکتر جبه‌دار مارالانی`
+                    : figureMeta.sourceCitationFa}
                 </span>
               </div>
 

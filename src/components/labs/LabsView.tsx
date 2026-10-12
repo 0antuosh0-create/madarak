@@ -91,7 +91,7 @@ export const LabsView: React.FC<LabsViewProps> = ({
           <span>سناریوهای حل مسئله و چالش‌های تحلیلی</span>
         </div>
         <h1 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
-          آزمایشگاه حل چالش‌های مدار دکتر جبه‌دار
+          آزمایشگاه حل چالش‌های مدارهای الکتریکی ۱
         </h1>
         <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
           مسائل برگزیده امتحانات و کنکور ارشد مدارهای الکتریکی با هدایت گام‌به‌گام، ورودی‌های تعاملی و بررسی تلرانس
@@ -379,7 +379,7 @@ export const LabsView: React.FC<LabsViewProps> = ({
               <div className="p-4 rounded-xl bg-white dark:bg-slate-900 border border-emerald-500/20 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed font-sans space-y-3">
                 <div className="flex items-center gap-2 pb-2 border-b border-slate-100 dark:border-slate-800 text-slate-500 text-xs font-bold">
                   <BookOpen size={15} className="text-amber-500" />
-                  <span>راه حل تشریحی کامل به سبک کتاب دکتر جبه‌دار:</span>
+                  <span>راه حل تشریحی و گام‌به‌گام تحلیلی مدار:</span>
                 </div>
                 <div
                   className="prose dark:prose-invert max-w-none text-xs sm:text-sm"

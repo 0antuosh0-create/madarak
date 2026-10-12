@@ -388,7 +388,7 @@ export const CatalogView: React.FC<CatalogViewProps> = ({
                               <span>{toPersianDigits(lesson.durationMinutes)} دقیقه</span>
                             </span>
                             <span className="px-1.5 py-0.2 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 text-[10px]">
-                              شکل کتاب مرجع
+                              دیاگرام تحلیلی مرجع
                             </span>
                           </div>
                         </div>

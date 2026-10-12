@@ -39,7 +39,7 @@ export const DescriptiveQuestionsCard: React.FC<DescriptiveQuestionsCardProps> =
               پرسش‌ها و مسائل تشریحی امتحانی همراه با پاسخ کامل
             </h3>
             <p className="text-[11px] text-slate-500 mt-0.5">
-              مسائل تحلیلی و امتحانی پایان‌ترم دانشگاهی منطبق بر سرفصل‌های کتاب دکتر جبه‌دار
+              مسائل تحلیلی و امتحانی پایان‌ترم دانشگاهی منطبق بر سرفصل‌های آموزشی درس
             </p>
           </div>
         </div>

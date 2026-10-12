@@ -316,7 +316,7 @@ export const TheveninSolver: React.FC = () => {
             <div className="mt-3 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed flex items-center gap-2">
               <Info size={16} className="text-amber-500 shrink-0" />
               <span>
-                طبق قضیه انتقال حداکثر توان دکتر جبه‌دار، بیشترین توان زمانی تحویل می‌شود که مقاومت بار با مقاومت درونی تونن مدار برابر باشد: <strong className="text-amber-600 dark:text-amber-400">RL = Rth = {formatPersianNumber(rth, 1)} Ω</strong>. در این حالت بازدهی انتقال توان ۵۰٪ است.
+                طبق قضیه انتقال حداکثر توان، بیشترین توان زمانی تحویل می‌شود که مقاومت بار با مقاومت درونی تونن مدار برابر باشد: <strong className="text-amber-600 dark:text-amber-400">RL = Rth = {formatPersianNumber(rth, 1)} Ω</strong>. در این حالت بازدهی انتقال توان ۵۰٪ است.
               </span>
             </div>
           </div>

@@ -25,7 +25,7 @@ const DEMO_CIRCUITS: DemoCircuit[] = [
   {
     id: 1,
     name: 'مدار پل وتستون نامتعادل (Wheatstone Bridge)',
-    netlist: `* پل وتستون نامتعادل - کتاب دکتر جبه‌دار فصل ۱
+    netlist: `* پل وتستون نامتعادل (Wheatstone Bridge Netlist)
 Vs 1 0 DC 24
 R1 1 2 2
 R2 2 0 4
@@ -77,7 +77,7 @@ export const TerminalView: React.FC = () => {
     {
       id: 'l-0',
       type: 'output',
-      text: 'SPICE Interactive Circuit Engine (v3f5-madarak) [پلتفرم تعاملی مدار ۱ جبه‌دار]',
+      text: 'SPICE Interactive Circuit Engine (v3f5-madarak) [شبیه‌ساز تعاملی مدارهای الکتریکی]',
     },
     {
       id: 'l-1',

@@ -143,7 +143,7 @@ export const ResourcesView: React.FC = () => {
                 </div>
 
                 <div className="pt-3 border-t border-slate-100 dark:border-slate-800 text-[11px] text-amber-700 dark:text-amber-300 bg-amber-500/5 p-3 rounded-xl">
-                  <strong>نکته امتحانی دکتر جبه‌دار: </strong>
+                  <strong>نکته کلیدی و کنکوری قضیه: </strong>
                   {th.examTipsFa[0]}
                 </div>
               </div>

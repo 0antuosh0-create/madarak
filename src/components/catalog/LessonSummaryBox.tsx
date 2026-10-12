@@ -31,7 +31,7 @@ export const LessonSummaryBox: React.FC<LessonSummaryBoxProps> = ({
               جمع‌بندی جامع و مرور سریع درس
             </h3>
             <p className="text-[11px] text-slate-500 mt-0.5">
-              خلاصه فرمول‌های کلیدی، قواعد بنیادین و نکات پرکاربرد امتحانی دکتر جبه‌دار
+              خلاصه فرمول‌های کلیدی، قواعد بنیادین و نکات تحلیلی سرفصل
             </p>
           </div>
         </div>

@@ -80,7 +80,7 @@ export const QuickCheatsheetModal: React.FC<QuickCheatsheetModalProps> = ({
                 فرمول‌نامه سریع و قضایای مدارهای الکتریکی ۱
               </h2>
               <p className="text-xs text-slate-500 dark:text-slate-400">
-                مرجع سریع فرمول‌ها، قضایا و نکات کنکوری دکتر جبه‌دار
+                مرجع سریع فرمول‌ها، قضایا و روابط تحلیلی مدار و شبکه‌ها
               </p>
             </div>
           </div>

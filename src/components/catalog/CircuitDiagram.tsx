@@ -1047,7 +1047,7 @@ export const CircuitDiagram: React.FC<CircuitDiagramProps> = ({ type, className 
               <circle cx="300" cy="60" r="5" fill="#f59e0b" />
             </svg>
             <p className="text-xs text-slate-400 mt-2">
-              طراحی شده بر مبنای استانداردهای ترسیم دیاگرام‌های الکتریکی کتاب دکتر جبه‌دار مارالانی
+              طراحی شده بر مبنای استانداردهای بین‌المللی ترسیم دیاگرام‌ها و شبکه‌های الکتریکی
             </p>
           </div>
         </div>

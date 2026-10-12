@@ -284,7 +284,7 @@ export const HardwareCardVisualizer: React.FC<HardwareCardVisualizerProps> = ({
           <div className="space-y-1.5 text-start max-w-sm">
             <div className="text-xs font-bold text-amber-400">اهمیت فیزیکی علامت نقطه روی بدنه ترانس:</div>
             <p className="text-[11px] text-slate-300 leading-relaxed">
-              نقطه سفید حک‌شده روی بدنه پایه شماره ۱ را نشان می‌دهد. هرگاه جریان ورودی اولیه به پایه ۱ وارد شود، ولتاژ پایه خروجی ثانویه نقطه‌دار در همان لحظه مثبت می‌شود (هم‌فاز). این همان قرارداد نقطه کتاب جبه‌دار است!
+              نقطه سفید حک‌شده روی بدنه پایه شماره ۱ را نشان می‌دهد. هرگاه جریان ورودی اولیه به پایه ۱ وارد شود، ولتاژ پایه خروجی ثانویه نقطه‌دار در همان لحظه مثبت می‌شود (هم‌فاز). این همان قرارداد نقطه استاندارد مدارهای الکتریکی است!
             </p>
           </div>
         </div>
@@ -367,7 +367,7 @@ export const HardwareCardVisualizer: React.FC<HardwareCardVisualizerProps> = ({
               <span className="font-mono text-xs font-bold uppercase">{visualKind}</span>
             </div>
             <p className="text-xs text-slate-300 max-w-md mx-auto leading-relaxed">
-              نمایش سخت‌افزاری و قطعه صنعتی متناظر با مفاهیم نظریه اساسی مدارها در آزمایشگاه مهندسی برق
+              نمایش سخت‌افزاری و قطعه صنعتی متناظر با مفاهیم تحلیلی در آزمایشگاه مهندسی برق
             </p>
           </div>
         )}
