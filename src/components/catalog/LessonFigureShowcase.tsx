@@ -50,7 +50,7 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
   const resolveAssetUrl = (src: string) => {
     if (!src) return '';
     if (src.startsWith('http://') || src.startsWith('https://')) return src;
-    const clean = src.replace(/^\/+/, '');
+    const clean = src.replace(/^(\.\/|\/)+/, '');
     const base = import.meta.env.BASE_URL || './';
     return `${base}${clean}`;
   };
