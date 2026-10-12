@@ -46,6 +46,14 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
   const figureMeta: LessonFigureMeta | undefined = lessonFiguresData[lessonId];
   const hardwareMeta: LessonHardwareData | undefined = lessonHardwareData[lessonId];
 
+
+  const resolveAssetUrl = (src: string) => {
+    if (!src) return '';
+    if (src.startsWith('http://') || src.startsWith('https://')) return src;
+    const clean = src.replace(/^\/+/, '');
+    const base = import.meta.env.BASE_URL || './';
+    return `${base}${clean}`;
+  };
   if (!figureMeta) return null;
 
   return (
@@ -138,7 +146,7 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
         >
           <div className="relative max-w-2xl w-full rounded-xl overflow-hidden shadow-md border border-slate-200/80 dark:border-slate-800 bg-white">
             <img
-              src={figureMeta.figureSrc}
+              src={resolveAssetUrl(figureMeta.figureSrc)}
               alt={figureMeta.captionFa}
               className="w-full h-auto object-contain max-h-[420px] p-2"
               loading="lazy"
@@ -288,7 +296,7 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
             {/* Modal Image Body with Zoom */}
             <div className="flex-1 p-6 overflow-auto bg-slate-950 flex items-center justify-center">
               <img
-                src={figureMeta.figureSrc}
+                src={resolveAssetUrl(figureMeta.figureSrc)}
                 alt={figureMeta.captionFa}
                 style={{ transform: `scale(${zoomLevel})`, transition: 'transform 0.15s ease' }}
                 className="max-w-full max-h-[70vh] object-contain rounded-lg bg-white p-2 shadow-2xl"

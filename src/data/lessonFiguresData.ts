@@ -13,7 +13,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   // ==========================================
   'lesson-1-1': {
     lessonId: 'lesson-1-1',
-    figureSrc: '/figures/fig_lesson_1_1.png',
+    figureSrc: './figures/fig_lesson_1_1.png',
     figureNumberFa: 'شکل ۱-۱',
     bookPage: 4,
     captionFa: 'فرضیه مدارهای فشرده در برابر خطوط انتقال (d ≪ λ)',
@@ -24,7 +24,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-1-2': {
     lessonId: 'lesson-1-2',
-    figureSrc: '/figures/fig_lesson_1_2.png',
+    figureSrc: './figures/fig_lesson_1_2.png',
     figureNumberFa: 'شکل ۱-۲',
     bookPage: 6,
     captionFa: 'قرارداد علامت در عناصر غیرفعال و تراز توان لحظه‌ای',
@@ -35,7 +35,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-1-3': {
     lessonId: 'lesson-1-3',
-    figureSrc: '/figures/fig_lesson_1_3.png',
+    figureSrc: './figures/fig_lesson_1_3.png',
     figureNumberFa: 'شکل ۱-۳',
     bookPage: 8,
     captionFa: 'توپولوژی مدار، گراف همبند، درخت و لینک‌ها',
@@ -46,7 +46,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-1-4': {
     lessonId: 'lesson-1-4',
-    figureSrc: '/figures/fig_lesson_1_4.png',
+    figureSrc: './figures/fig_lesson_1_4.png',
     figureNumberFa: 'شکل ۱-۳-ب',
     bookPage: 7,
     captionFa: 'قانون جریان کیرشف (KCL) برای گره‌ها و سطوح بسته',
@@ -57,7 +57,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-1-5': {
     lessonId: 'lesson-1-5',
-    figureSrc: '/figures/fig_lesson_1_5.png',
+    figureSrc: './figures/fig_lesson_1_5.png',
     figureNumberFa: 'شکل ۱-۴',
     bookPage: 10,
     captionFa: 'قانون ولتاژ کیرشف (KVL) در حلقه‌های بسته مدار',
@@ -68,7 +68,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-1-6': {
     lessonId: 'lesson-1-6',
-    figureSrc: '/figures/fig_lesson_1_6.png',
+    figureSrc: './figures/fig_lesson_1_6.png',
     figureNumberFa: 'شکل ۱-۶',
     bookPage: 13,
     captionFa: 'قضیه شگفت‌انگیز تلگان و تعامد بردار ولتاژ و جریان',
@@ -83,7 +83,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   // ==========================================
   'lesson-2-1': {
     lessonId: 'lesson-2-1',
-    figureSrc: '/figures/fig_lesson_2_1.png',
+    figureSrc: './figures/fig_lesson_2_1.png',
     figureNumberFa: 'شکل ۲-۱ (Wikimedia Commons)',
     bookPage: 24,
     captionFa: 'شکل‌موج‌های سینوسی سه‌فاز متقارن با اختلاف فاز ۱۲۰ درجه',
@@ -94,7 +94,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-2-2': {
     lessonId: 'lesson-2-2',
-    figureSrc: '/figures/fig_lesson_2_2.png',
+    figureSrc: './figures/fig_lesson_2_2.png',
     figureNumberFa: 'شکل ۲-۲ (Wikimedia Commons)',
     bookPage: 35,
     captionFa: 'مدار سنجش ضریب توان، ولت‌متر، آمپرمتر و وات‌متر با بار RLC',
@@ -105,7 +105,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-2-3': {
     lessonId: 'lesson-2-3',
-    figureSrc: '/figures/fig_lesson_2_3.png',
+    figureSrc: './figures/fig_lesson_2_3.png',
     figureNumberFa: 'شکل ۲-۳ (Wikimedia Commons)',
     bookPage: 48,
     captionFa: 'اتصالات سه‌فاز ستاره (Y) و مثلث (Δ) و تبدیل متقابل امپدانس‌ها',
@@ -116,7 +116,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-2-4': {
     lessonId: 'lesson-2-4',
-    figureSrc: '/figures/fig_lesson_2_4.png',
+    figureSrc: './figures/fig_lesson_2_4.png',
     figureNumberFa: 'شکل ۲-۴ (Wikimedia Commons)',
     bookPage: 58,
     captionFa: 'دیاگرام تک‌خطی (SLD) سیستم قدرت شامل ژنراتور، شین‌ها، بریکرها و ترانس‌ها',
@@ -127,7 +127,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-2-5': {
     lessonId: 'lesson-2-5',
-    figureSrc: '/figures/fig_lesson_2_5.png',
+    figureSrc: './figures/fig_lesson_2_5.png',
     figureNumberFa: 'شکل ۲-۵ (Wikimedia Commons)',
     bookPage: 72,
     captionFa: 'منحنی مشخصه قابلیت کارکرد ۴ ناحیه‌ای اینورتر متصل به شبکه (P-Q Curve)',
@@ -142,7 +142,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   // ==========================================
   'lesson-3-1': {
     lessonId: 'lesson-3-1',
-    figureSrc: '/figures/fig_lesson_3_1.png',
+    figureSrc: './figures/fig_lesson_3_1.png',
     figureNumberFa: 'شکل ۳-۱ (کتاب جبه‌دار)',
     bookPage: 22,
     captionFa: 'مشخصه ولتاژ-جریان مقاومت خطی، رسانایی G و اتصال موازی مقاومت‌ها',
@@ -153,7 +153,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-3-2': {
     lessonId: 'lesson-3-2',
-    figureSrc: '/figures/fig_lesson_3_2.png',
+    figureSrc: './figures/fig_lesson_3_2.png',
     figureNumberFa: 'شکل ۳-۲ (کتاب جبه‌دار)',
     bookPage: 49,
     captionFa: 'معادلات حاکم بر خازن، رابطه بار-ولتاژ q(t) و پیوستگی ولتاژ',
@@ -164,7 +164,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-3-3': {
     lessonId: 'lesson-3-3',
-    figureSrc: '/figures/fig_lesson_3_3.png',
+    figureSrc: './figures/fig_lesson_3_3.png',
     figureNumberFa: 'شکل ۳-۳ (کتاب جبه‌دار)',
     bookPage: 61,
     captionFa: 'معادلات حاکم بر سلف، پیوند شار مغناطیسی Φ(t) و قانون القای فارادی',
@@ -175,7 +175,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-3-4': {
     lessonId: 'lesson-3-4',
-    figureSrc: '/figures/fig_lesson_3_4.png',
+    figureSrc: './figures/fig_lesson_3_4.png',
     figureNumberFa: 'شکل ۳-۴ (Wikimedia Commons)',
     bookPage: 65,
     captionFa: 'مدار معادل T برای سلف‌های تزویج‌شده مغناطیسی و اندوکتانس متقابل M',
@@ -186,7 +186,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-3-5': {
     lessonId: 'lesson-3-5',
-    figureSrc: '/figures/fig_lesson_3_5.png',
+    figureSrc: './figures/fig_lesson_3_5.png',
     figureNumberFa: 'شکل ۳-۵ (Wikimedia Commons)',
     bookPage: 73,
     captionFa: 'شماتیک مداری منبع ولتاژ وابسته به ولتاژ (VCVS) با نماد لوزی',
@@ -201,7 +201,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   // ==========================================
   'lesson-4-1': {
     lessonId: 'lesson-4-1',
-    figureSrc: '/figures/fig_lesson_4_1.png',
+    figureSrc: './figures/fig_lesson_4_1.png',
     figureNumberFa: 'شکل ۴-۱ (MIT / LibreTexts)',
     bookPage: 85,
     captionFa: 'دیاگرام تک‌خطی سیستم قدرت با ترانسفورماتورها و نواحی پایه ولتاژ',
@@ -212,7 +212,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-4-2': {
     lessonId: 'lesson-4-2',
-    figureSrc: '/figures/fig_lesson_4_2.png',
+    figureSrc: './figures/fig_lesson_4_2.png',
     figureNumberFa: 'شکل ۴-۲',
     bookPage: 92,
     captionFa: 'فرمول طلایی تبدیل مقادیر پریونیت میان پایه‌های ولتاژ و توان نامی',
@@ -223,7 +223,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-4-3': {
     lessonId: 'lesson-4-3',
-    figureSrc: '/figures/fig_lesson_4_3.png',
+    figureSrc: './figures/fig_lesson_4_3.png',
     figureNumberFa: 'شکل ۴-۳ (MIT / LibreTexts)',
     bookPage: 104,
     captionFa: 'حذف ترانسفورماتورهای ایده‌آل در دیاگرام امپدانس دستگاه پریونیت',
@@ -234,7 +234,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-4-4': {
     lessonId: 'lesson-4-4',
-    figureSrc: '/figures/fig_lesson_4_4.png',
+    figureSrc: './figures/fig_lesson_4_4.png',
     figureNumberFa: 'شکل ۴-۴ (MIT / LibreTexts)',
     bookPage: 115,
     captionFa: 'اتصال ترانسفورماتور سه‌فاز ستاره-مثلث با قرارداد نقطه و بار سه‌فاز',
@@ -249,7 +249,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   // ==========================================
   'lesson-5-1': {
     lessonId: 'lesson-5-1',
-    figureSrc: '/figures/fig_lesson_5_1.png',
+    figureSrc: './figures/fig_lesson_5_1.png',
     figureNumberFa: 'شکل ۵-۱ (Wikimedia Commons)',
     bookPage: 128,
     captionFa: 'تصویر مقطع واقعی هادی رشته‌ای ACSR با مغزی فولادی و لایه‌های آلومینیوم',
@@ -260,7 +260,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-5-2': {
     lessonId: 'lesson-5-2',
-    figureSrc: '/figures/fig_lesson_5_2.png',
+    figureSrc: './figures/fig_lesson_5_2.png',
     figureNumberFa: 'شکل ۵-۲ (Wikimedia Commons)',
     bookPage: 142,
     captionFa: 'تصویر اسپیسر دمپر برای باندل ۴ تایی هادی‌های خطوط انتقال فشار قوی',
@@ -271,7 +271,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-5-3': {
     lessonId: 'lesson-5-3',
-    figureSrc: '/figures/fig_lesson_5_3.png',
+    figureSrc: './figures/fig_lesson_5_3.png',
     figureNumberFa: 'شکل ۵-۳ (Wikimedia Commons)',
     bookPage: 156,
     captionFa: 'روش هادی‌های تصویر الکترواستاتیک و توزیع خطوط میدان بالای سطح زمین',
@@ -282,7 +282,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-5-4': {
     lessonId: 'lesson-5-4',
-    figureSrc: '/figures/fig_lesson_5_4.png',
+    figureSrc: './figures/fig_lesson_5_4.png',
     figureNumberFa: 'شکل ۵-۴ (Wikimedia Commons)',
     bookPage: 170,
     captionFa: 'مدار معادل پای اسمی (Nominal-π) خط انتقال متوسط با امپدانس سری و ادمیتانس طرفین',
@@ -293,7 +293,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-5-5': {
     lessonId: 'lesson-5-5',
-    figureSrc: '/figures/fig_lesson_5_5.png',
+    figureSrc: './figures/fig_lesson_5_5.png',
     figureNumberFa: 'شکل ۵-۵ (Wikimedia Commons)',
     bookPage: 184,
     captionFa: 'المان دیفرانسیلی dx خط انتقال و مدل پارامترهای توزیع‌شده معادلات تلگرافی',
@@ -304,7 +304,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-5-6': {
     lessonId: 'lesson-5-6',
-    figureSrc: '/figures/fig_lesson_5_6.png',
+    figureSrc: './figures/fig_lesson_5_6.png',
     figureNumberFa: 'شکل ۵-۶ (Wikimedia Commons)',
     bookPage: 198,
     captionFa: 'دیاگرام فازوری ولتاژ و جریان در پدیده فرانتی در خطوط انتقال بی‌بار',
@@ -319,7 +319,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   // ==========================================
   'lesson-6-1': {
     lessonId: 'lesson-6-1',
-    figureSrc: '/figures/fig_lesson_6_1.png',
+    figureSrc: './figures/fig_lesson_6_1.png',
     figureNumberFa: 'شکل ۶-۱ (کتاب جبه‌دار)',
     bookPage: 94,
     captionFa: 'روش تحلیل گره مدار با اعمال معادلات KCL و مدیریت منبع ولتاژ با ابرگره',
@@ -330,7 +330,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-6-2': {
     lessonId: 'lesson-6-2',
-    figureSrc: '/figures/fig_lesson_6_2.png',
+    figureSrc: './figures/fig_lesson_6_2.png',
     figureNumberFa: 'شکل ۶-۲ (کتاب جبه‌دار)',
     bookPage: 108,
     captionFa: 'روش تحلیل مش و جریان حلقه در مدارهای مسطح و تکنیک ابرمش',
@@ -341,7 +341,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-6-3': {
     lessonId: 'lesson-6-3',
-    figureSrc: '/figures/fig_lesson_6_3.png',
+    figureSrc: './figures/fig_lesson_6_3.png',
     figureNumberFa: 'شکل ۶-۳ (Wikimedia Commons)',
     bookPage: 210,
     captionFa: 'شبکه قدرت ۳ شینه برای تشکیل ماتریس ادمیتانس شین Y_bus',
@@ -352,7 +352,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-6-4': {
     lessonId: 'lesson-6-4',
-    figureSrc: '/figures/fig_lesson_6_4.png',
+    figureSrc: './figures/fig_lesson_6_4.png',
     figureNumberFa: 'شکل ۶-۴ (Wikimedia Commons)',
     bookPage: 224,
     captionFa: 'ترانسفورماتور شیفت فاز (بوستر متعامد) و کنترل پخش توان در خطوط موازی',
@@ -363,7 +363,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-6-5': {
     lessonId: 'lesson-6-5',
-    figureSrc: '/figures/fig_lesson_6_5.png',
+    figureSrc: './figures/fig_lesson_6_5.png',
     figureNumberFa: 'شکل ۶-۵',
     bookPage: 238,
     captionFa: 'کاهش کرون (Kron Reduction) و فاکتورگیری شین‌های بدون تزریق بار',
@@ -378,7 +378,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   // ==========================================
   'lesson-7-1': {
     lessonId: 'lesson-7-1',
-    figureSrc: '/figures/fig_lesson_7_1.png',
+    figureSrc: './figures/fig_lesson_7_1.png',
     figureNumberFa: 'شکل ۷-۱ (کتاب جبه‌دار)',
     bookPage: 138,
     captionFa: 'مدار معادل تونن، ولتاژ مدار باز Voc و مقاومت معادل دیده شده',
@@ -389,7 +389,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-7-2': {
     lessonId: 'lesson-7-2',
-    figureSrc: '/figures/fig_lesson_7_2.png',
+    figureSrc: './figures/fig_lesson_7_2.png',
     figureNumberFa: 'شکل ۷-۲ (Wikimedia Commons)',
     bookPage: 141,
     captionFa: 'مدار معادل نورتن، دوگانی با تونن و تبدیل مستقیم منابع مستقل',
@@ -400,7 +400,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-7-3': {
     lessonId: 'lesson-7-3',
-    figureSrc: '/figures/fig_lesson_7_3.png',
+    figureSrc: './figures/fig_lesson_7_3.png',
     figureNumberFa: 'شکل ۷-۳ (کتاب جبه‌دار)',
     bookPage: 109,
     captionFa: 'قضیه جمع آثار در مدارهای خطی و اصل برهم‌نهی اثر تک‌تک منابع',
@@ -411,7 +411,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-7-4': {
     lessonId: 'lesson-7-4',
-    figureSrc: '/figures/fig_lesson_7_4.png',
+    figureSrc: './figures/fig_lesson_7_4.png',
     figureNumberFa: 'شکل ۷-۴ (کتاب جبه‌دار)',
     bookPage: 183,
     captionFa: 'آپ‌امپ ایده‌آل، نماد، مشخصه انتقال غیرخطی و قوانین طلایی فیدبک',
@@ -422,7 +422,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-7-5': {
     lessonId: 'lesson-7-5',
-    figureSrc: '/figures/fig_lesson_7_5.png',
+    figureSrc: './figures/fig_lesson_7_5.png',
     figureNumberFa: 'شکل ۷-۵ (کتاب جبه‌دار)',
     bookPage: 184,
     captionFa: 'تقویت‌کننده وارون‌گر، ناوارون‌گر و مدار انتگرال‌گیر با آپ‌امپ',
@@ -437,7 +437,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   // ==========================================
   'lesson-8-1': {
     lessonId: 'lesson-8-1',
-    figureSrc: '/figures/fig_lesson_8_1.png',
+    figureSrc: './figures/fig_lesson_8_1.png',
     figureNumberFa: 'شکل ۸-۱ (Wikimedia Commons)',
     bookPage: 250,
     captionFa: 'دیاگرام شبکه ۳ شینه در مسئله پخش بار (شین اسلک، ژنراتوری و بار)',
@@ -448,7 +448,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-8-2': {
     lessonId: 'lesson-8-2',
-    figureSrc: '/figures/fig_lesson_8_2.png',
+    figureSrc: './figures/fig_lesson_8_2.png',
     figureNumberFa: 'شکل ۸-۲ (Wikimedia Commons)',
     bookPage: 265,
     captionFa: 'همگرایی مماس هندسی در الگوریتم نیوتن-رافسون و ماتریس ژاکوبی قطبی',
@@ -459,7 +459,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-8-3': {
     lessonId: 'lesson-8-3',
-    figureSrc: '/figures/fig_lesson_8_3.png',
+    figureSrc: './figures/fig_lesson_8_3.png',
     figureNumberFa: 'شکل ۸-۳',
     bookPage: 278,
     captionFa: 'پخش بار تفکیک‌شده سریع (FDLF) و ماتریس‌های تجزیه B\' و B\'\'',
@@ -470,7 +470,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-8-4': {
     lessonId: 'lesson-8-4',
-    figureSrc: '/figures/fig_lesson_8_4.png',
+    figureSrc: './figures/fig_lesson_8_4.png',
     figureNumberFa: 'شکل ۸-۴ (Wikimedia Commons)',
     bookPage: 290,
     captionFa: 'منحنی مشخصه قابلیت کارکرد (D-Curve) ژنراتور سنکرون و حدود توان راکتیو',
@@ -481,7 +481,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   },
   'lesson-8-5': {
     lessonId: 'lesson-8-5',
-    figureSrc: '/figures/fig_lesson_8_5.png',
+    figureSrc: './figures/fig_lesson_8_5.png',
     figureNumberFa: 'شکل ۸-۵ (کتاب جبه‌دار)',
     bookPage: 123,
     captionFa: 'شبیه‌سازی مدارها با نرم‌افزار SPICE، شماره‌گذاری گره‌ها و فایل ورودی',
