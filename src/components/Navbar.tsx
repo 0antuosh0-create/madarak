@@ -115,10 +115,10 @@ export const Navbar: React.FC<NavbarProps> = ({
               </kbd>
             </button>
 
-            {/* Overall Progress Indicator */}
+            {/* Overall Progress Indicator (Visible on tablet and desktop) */}
             <div
               title={`${toPersianDigits(completedLessonsCount)} از ${toPersianDigits(totalLessonsCount)} درس تکمیل شده`}
-              className="flex items-center gap-2 px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs"
+              className="hidden sm:flex items-center gap-2 px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs"
             >
               <div className="w-16 h-2 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
                 <div
@@ -134,11 +134,11 @@ export const Navbar: React.FC<NavbarProps> = ({
               )}
             </div>
 
-            {/* Backup / Export Button */}
+            {/* Backup / Export Button (Visible on tablet and desktop) */}
             <button
               onClick={onOpenBackup}
               title="پشتیبان‌گیری و ذخیره پیشرفت"
-              className="p-2 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+              className="hidden sm:flex p-2 rounded-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
             >
               <DownloadCloud size={18} />
             </button>

@@ -109,10 +109,15 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
               }`}
             >
               <BookOpen size={13} />
-              <span>
+              <span className="hidden sm:inline">
                 {figureMeta.sourceKind === 'jabehdar'
                   ? 'شکل کتاب جبه‌دار'
                   : `تصویر و دیاگرام: ${figureMeta.figureNumberFa}`}
+              </span>
+              <span className="sm:hidden">
+                {figureMeta.sourceKind === 'jabehdar'
+                  ? 'شکل کتاب'
+                  : figureMeta.figureNumberFa}
               </span>
             </button>
             <button
@@ -124,7 +129,8 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
               }`}
             >
               <Cpu size={13} />
-              <span>سخت‌افزار و قطعات واقعی</span>
+              <span className="hidden sm:inline">سخت‌افزار و قطعات واقعی</span>
+              <span className="sm:hidden">سخت‌افزار</span>
             </button>
           </div>
 

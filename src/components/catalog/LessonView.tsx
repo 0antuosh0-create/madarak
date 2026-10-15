@@ -52,7 +52,7 @@ export const LessonView: React.FC<LessonViewProps> = ({
 
 
   return (
-    <div className="max-w-4xl mx-auto py-6 px-4 sm:px-6">
+    <div className="max-w-4xl mx-auto py-6 px-4 sm:px-6 pb-24 md:pb-8">
       {/* Top breadcrumb & back button */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-slate-200 dark:border-slate-800">
         <button
@@ -213,6 +213,47 @@ export const LessonView: React.FC<LessonViewProps> = ({
         >
           <span>درس بعدی</span>
           <ChevronLeft size={18} />
+        </button>
+      </div>
+
+      {/* Mobile Ergonomic Bottom Action Bar (One-handed navigation on phones) */}
+      <div className="md:hidden fixed bottom-0 inset-x-0 z-30 bg-white/95 dark:bg-[#0b1320]/95 backdrop-blur-md border-t border-slate-200 dark:border-slate-800 p-2.5 px-4 flex items-center justify-between gap-2 shadow-lg">
+        <button
+          onClick={() => onNavigateLesson('prev')}
+          disabled={!hasPrevLesson}
+          className={`flex items-center justify-center gap-1 px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
+            hasPrevLesson
+              ? 'bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 active:scale-95'
+              : 'opacity-30 cursor-not-allowed text-slate-400'
+          }`}
+        >
+          <ChevronRight size={16} />
+          <span>قبلی</span>
+        </button>
+
+        <button
+          onClick={onToggleComplete}
+          className={`flex-1 flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl text-xs font-bold transition-all active:scale-95 ${
+            isCompleted
+              ? 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
+              : 'bg-amber-500 text-slate-950 shadow-sm'
+          }`}
+        >
+          <CheckCircle2 size={15} className={isCompleted ? 'text-emerald-600' : 'text-slate-950'} />
+          <span>{isCompleted ? 'خوانده شد' : 'ثبت مطالعه'}</span>
+        </button>
+
+        <button
+          onClick={() => onNavigateLesson('next')}
+          disabled={!hasNextLesson}
+          className={`flex items-center justify-center gap-1 px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
+            hasNextLesson
+              ? 'bg-amber-500 text-slate-950 active:scale-95'
+              : 'opacity-30 cursor-not-allowed text-slate-400'
+          }`}
+        >
+          <span>بعدی</span>
+          <ChevronLeft size={16} />
         </button>
       </div>
     </div>
