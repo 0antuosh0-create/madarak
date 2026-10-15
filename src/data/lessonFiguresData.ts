@@ -112,7 +112,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   'lesson-2-2': {
     lessonId: 'lesson-2-2',
     figureSrc: './figures/fig_lesson_2_2.png',
-    figureNumberFa: 'دیاگرام سنجش توان',
+    figureNumberFa: 'عکس بانک خازنی ۱۵۰kV',
     sourceKind: 'reference',
     sourceCitationFa: 'مرجع اندازه‌گیری الکتریکی و ضریب توان • Wikimedia Commons',
     captionFa: 'مدار سنجش ضریب توان، ولت‌متر، آمپرمتر و وات‌متر با بار RLC',
@@ -288,7 +288,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   'lesson-5-1': {
     lessonId: 'lesson-5-1',
     figureSrc: './figures/fig_lesson_5_1.png',
-    figureNumberFa: 'مقطع هادی ACSR',
+    figureNumberFa: 'عکس مقطع کابل ACSR',
     sourceKind: 'reference',
     sourceCitationFa: 'مرجع استانداردهای خطوط انتقال نیرو و هادی‌های ACSR • Wikimedia Commons',
     captionFa: 'تصویر مقطع واقعی هادی رشته‌ای ACSR با مغزی فولادی و لایه‌های آلومینیوم',
@@ -300,7 +300,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   'lesson-5-2': {
     lessonId: 'lesson-5-2',
     figureSrc: './figures/fig_lesson_5_2.png',
-    figureNumberFa: 'اسپیسر باندل ۴ تایی',
+    figureNumberFa: 'عکس اسپیسر باندل ۴ تایی',
     sourceKind: 'reference',
     sourceCitationFa: 'تصویر تجهیزات خطوط انتقال ولتاژ بالا (۴۰۰ کیلوولت) • Wikimedia Commons',
     captionFa: 'تصویر اسپیسر دمپر برای باندل ۴ تایی هادی‌های خطوط انتقال فشار قوی',
@@ -348,7 +348,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   'lesson-5-6': {
     lessonId: 'lesson-5-6',
     figureSrc: './figures/fig_lesson_5_6.png',
-    figureNumberFa: 'دیاگرام فازور فرانتی',
+    figureNumberFa: 'عکس راکتور شنت مهار فرانتی',
     sourceKind: 'reference',
     sourceCitationFa: 'مرجع تحلیل پدیده فرانتی در خطوط بلند • Wikimedia Commons',
     captionFa: 'دیاگرام فازوری ولتاژ و جریان در پدیده فرانتی در خطوط انتقال بی‌بار',
@@ -404,7 +404,7 @@ export const lessonFiguresData: Record<string, LessonFigureMeta> = {
   'lesson-6-4': {
     lessonId: 'lesson-6-4',
     figureSrc: './figures/fig_lesson_6_4.png',
-    figureNumberFa: 'بوستر شیفت فاز',
+    figureNumberFa: 'عکس ترانس شیفت فاز ۴۰۰MVA',
     sourceKind: 'reference',
     sourceCitationFa: 'مرجع تجهیزات کنترل توان شبکه (بوستر متعامد) • Wikimedia Commons',
     captionFa: 'ترانسفورماتور شیفت فاز (بوستر متعامد) و کنترل پخش توان در خطوط موازی',

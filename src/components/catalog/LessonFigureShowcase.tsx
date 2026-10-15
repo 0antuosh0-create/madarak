@@ -70,7 +70,7 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
                 {activeTab === 'textbook'
                   ? (figureMeta.sourceKind === 'jabehdar'
                       ? 'شکل و دیاگرام کتاب مرجع دکتر جبه‌دار'
-                      : 'دیاگرام و مرجع علمی سرفصل')
+                      : `تصویر و دیاگرام تخصصی: ${figureMeta.figureNumberFa}`)
                   : 'تطبیق با سخت‌افزار و آزمایشگاه واقعی در صنعت'}
               </span>
               {activeTab === 'textbook' ? (
@@ -109,7 +109,11 @@ export const LessonFigureShowcase: React.FC<LessonFigureShowcaseProps> = ({
               }`}
             >
               <BookOpen size={13} />
-              <span>{figureMeta.sourceKind === 'jabehdar' ? 'شکل کتاب جبه‌دار' : 'دیاگرام و مرجع علمی'}</span>
+              <span>
+                {figureMeta.sourceKind === 'jabehdar'
+                  ? 'شکل کتاب جبه‌دار'
+                  : `تصویر و دیاگرام: ${figureMeta.figureNumberFa}`}
+              </span>
             </button>
             <button
               onClick={() => setActiveTab('hardware')}
