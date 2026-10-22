@@ -1,4 +1,4 @@
-export type NavTab = 'catalog' | 'resources';
+export type NavTab = 'catalog' | 'assignments' | 'resources';
 
 export interface QuizQuestion {
   questionFa: string;

@@ -2,6 +2,7 @@ import React from 'react';
 import {
   BookOpen,
   FileText,
+  FileCheck,
   Calculator,
   DownloadCloud,
   X,
@@ -40,6 +41,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
   const navItems: { id: NavTab; label: string; icon: React.ReactNode; desc: string }[] = [
     { id: 'catalog', label: 'سرفصل‌ها و درس‌نامه', icon: <BookOpen size={18} />, desc: 'آموزش یکپارچه مدار و سیستم‌های انرژی ۱' },
+    { id: 'assignments', label: 'حل تمرین و مسائل', icon: <FileCheck size={18} />, desc: 'آرشیو تمرین‌های حل‌شده دانشگاه شهید بهشتی با راستی‌آزمایی ریاضی' },
     { id: 'resources', label: 'فرمول‌نامه و مراجع', icon: <FileText size={18} />, desc: 'قضایا، کدهای رنگی و مراجع قدرت' },
   ];
 

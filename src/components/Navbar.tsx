@@ -2,6 +2,7 @@ import React from 'react';
 import {
   BookOpen,
   FileText,
+  FileCheck,
   Sun,
   Moon,
   DownloadCloud,
@@ -45,6 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   const navItems: { id: NavTab; label: string; icon: React.ReactNode }[] = [
     { id: 'catalog', label: 'سرفصل‌ها و درس‌نامه', icon: <BookOpen size={17} /> },
+    { id: 'assignments', label: 'حل تمرین و مسائل', icon: <FileCheck size={17} /> },
     { id: 'resources', label: 'فرمول‌نامه و مراجع', icon: <FileText size={17} /> },
   ];
 

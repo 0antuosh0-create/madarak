@@ -13,6 +13,7 @@ import { QuickCheatsheetModal } from './components/QuickCheatsheetModal';
 import { BackupModal } from './components/BackupModal';
 import { CatalogView } from './components/catalog/CatalogView';
 import { ResourcesView } from './components/resources/ResourcesView';
+import { AssignmentsView } from './components/assignments/AssignmentsView';
 import {
   Zap,
   Calculator,
@@ -139,6 +140,7 @@ export const App: React.FC = () => {
             onClearActiveLesson={() => setActiveLessonId(undefined)}
           />
         )}
+        {currentTab === 'assignments' && <AssignmentsView />}
         {currentTab === 'resources' && <ResourcesView />}
       </main>
 
